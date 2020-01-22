@@ -75,9 +75,9 @@ https://kite.com/blog/python/smote-python-imbalanced-learn-for-oversampling/
 - Warnings (https://docs.python.org/3/library/warnings.html).
 ---
 ---
-## Questões
+# Questões
 
-1. **Qual profissão tem mais tendência a fazer um empréstimo? De qual tipo?**<br>
+## 1. **Qual profissão tem mais tendência a fazer um empréstimo? De qual tipo?**<br>
 
 
 
@@ -104,7 +104,7 @@ plt.show()
 #### Resposta
 As profissões que apresentam maior potencial em assinar um depósito à prazo são os Aposentados (***retired***) e os Estudantes (***student***). Situação que faz bastante sentido, tendo em vista que os estudantes buscam estabilidade no futuro, obtendo lucro com o juros do depósito à prazo e guardando dinheiro para o um momento posterior. Já os aposentados tendem a não gastar muito seu dinheiro, dessa forma, podendo aplicar seu dinheiro e  e lucrar com a taxa de juros, conseguem aumentar sua receita.
 
-2. **Fazendo uma relação entre número de contatos e sucesso da campanha quais são os pontos relevantes a serem observados?**
+## 2. **Fazendo uma relação entre número de contatos e sucesso da campanha quais são os pontos relevantes a serem observados?**
 
 
 
@@ -126,19 +126,6 @@ df_camp
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -228,11 +215,11 @@ plt.show()
 #### Resposta
 Os pontos relevantes a serem observados durante a campanha, é que os clientes que receberem uma grande quantidade de contatos recusaram a proposta de assinar um contrato à prazo, e que para conquistar o cliente com o objetivo do mesmo assinar um contrato à prazo é de em média 3 contatos. De acordo com a análise realizada, quando aumenta-se a quantidade de contatos, o cliente não assinará o contrato à prazo.
 
-3. **Baseando-se nos resultados de adesão desta campanha qual o número médio e o máximo de ligações que você indica para otimizar a adesão?**
+## 3. **Baseando-se nos resultados de adesão desta campanha qual o número médio e o máximo de ligações que você indica para otimizar a adesão?**
 #### Resposta
 Média de 2 contatos e no máximo até 4 contatos. Não exceder de 4 contatos, para não gastar tempo, esforço e dinheiro com um cliente que possivelmente não assinará um contrato à prazo.
 
-4. **O resultado da campanha anterior tem relevância na campanha atual?**
+## 4. **O resultado da campanha anterior tem relevância na campanha atual?**
 
 
 
@@ -285,11 +272,11 @@ dataset_poutcome_success_grafico['mean']
 #### Resposta
 Sim, inclusive está entre as 5 features mais importantes para o algoritmo Random Forest. A probabilidade de um cliente que assinou um contrato à prazo anteriormente assinar um novo contrato na nova campanha é de aproximadamente 65%.
 
-5. **Qual o fator determinante para que o banco exija um seguro de crédito?**
+## 5. **Qual o fator determinante para que o banco exija um seguro de crédito?**
 #### Resposta
 quando o cliente possui um balanço (***balance***) negativo.
 
-6. **Quais são as características mais proeminentes de um cliente que possua empréstimo imobiliário?**
+## 6. **Quais são as características mais proeminentes de um cliente que possua empréstimo imobiliário?**
 
 
 ```python
