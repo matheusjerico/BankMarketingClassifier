@@ -98,7 +98,7 @@ plt.show()
 ```
 
 
-![png](output_139_0.png)
+![png](imagens/output_139_0.png)
 
 
 #### Resposta
@@ -207,7 +207,7 @@ df_camp.drop(['count', '25%', '50%', '75%']).plot.bar(title = 'Campaign and Term
 
 
 
-![png](output_144_1.png)
+![png](imagens/output_144_1.png)
 
 
 
@@ -222,7 +222,7 @@ plt.show()
 
 
 
-![png](output_145_1.png)
+![png](imagens/output_145_1.png)
 
 
 #### Resposta
@@ -249,7 +249,7 @@ plt.show()
 
 
 
-![png](output_149_1.png)
+![png](imagens/output_149_1.png)
 
 
 
@@ -266,7 +266,7 @@ sns.countplot(dataset_poutcome_success['y'])
 
 
 
-![png](output_150_1.png)
+![png](imagens/output_150_1.png)
 
 
 
@@ -309,7 +309,7 @@ plt.show()
 ```
 
 
-![png](output_155_0.png)
+![png](imagens/output_155_0.png)
 
 
 
@@ -325,7 +325,7 @@ plt.show()
 ```
 
 
-![png](output_156_0.png)
+![png](imagens/output_156_0.png)
 
 
 
@@ -341,7 +341,7 @@ plt.show()
 ```
 
 
-![png](output_157_0.png)
+![png](imagens/output_157_0.png)
 
 
 
@@ -369,39 +369,39 @@ dataset['housing'] = le.inverse_transform(dataset['housing'])
 ```
 
 
-![png](output_160_0.png)
+![png](imagens/output_160_0.png)
 
 
 
-![png](output_160_1.png)
+![png](imagens/output_160_1.png)
 
 
 
-![png](output_160_2.png)
+![png](imagens/output_160_2.png)
 
 
 
-![png](output_160_3.png)
+![png](imagens/output_160_3.png)
 
 
 
-![png](output_160_4.png)
+![png](imagens/output_160_4.png)
 
 
 
-![png](output_160_5.png)
+![png](imagens/output_160_5.png)
 
 
 
-![png](output_160_6.png)
+![png](imagens/output_160_6.png)
 
 
 
-![png](output_160_7.png)
+![png](imagens/output_160_7.png)
 
 
 
-![png](output_160_8.png)
+![png](imagens/output_160_8.png)
 
 
 #### Resposta
